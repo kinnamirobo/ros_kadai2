@@ -8,3 +8,9 @@ Ubuntu 20.04 ROS
 https://youtu.be/YnAYm2fqx2k
 
 # 使用方法
+1)ubuntu20.04にros noeticをインストールする
+2)catkin_ws/srcをホームディレクトリに作成する
+3)catkin_ws/srcの中でcatkin_init_workspaceを行う
+4)bashrcのsource /opt～の下にsource ~catkin_ws/devel/setup.bashを記述する
+5)catkin_wsのディレクトリ内でcatkin_makeを行い，source ~/.bashrcを行う
+6)
